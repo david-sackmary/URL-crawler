@@ -70,3 +70,8 @@ finally:
 
     ifile.close()
     ofile.close()
+
+#Study materials which help understand this project:
+# http://programming-review.com/beautifulsoasome-interesting-python-functions/
+# hhtp://stackoverflow.com/questions/11300383/how-to-find-the-count-of-a-word-in-a-string
+# http://stackoverflow.com/questions/16922214/reading-a-text-file-and-splitting-it-into-single-words-in-python
