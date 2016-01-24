@@ -4,6 +4,8 @@ from mechanize import Browser
 from collections import *
 #from nltk.corpus import stopwords
 
+if len(sys.argv) != 4:
+    sys.exit("usage:  python main.py input.csv output.csv stop_words.csv")
 ifile = open(sys.argv[1],'r')
 ofile = open(sys.argv[2],'wb')
 sfile = open(sys.argv[3],'r')   #stop words file
